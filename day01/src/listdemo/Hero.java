@@ -9,6 +9,9 @@ public class Hero {
     private String type;
     private String camp;
 
+    public Hero() {
+    }
+
     public Hero(Integer heroNumber, String name, Integer level, Double power, String type, String camp) {
         this.heroNumber = heroNumber;
         this.name = name;
